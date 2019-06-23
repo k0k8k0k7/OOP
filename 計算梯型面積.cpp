@@ -4,10 +4,10 @@
 using namespace std;
 
 int main() {
-    int top_base, under_base, high;
-    cin >> top_base >> under_base >> high;
-    float area;
-    area = (top_base+under_base)*high/2.0;
-    cout << "Trapezoid area:" << fixed << setprecision(1) << (float)area << "\n";
+    int x,y,z;
+    cin >> x >> y >> z;
+    double area;
+    area = (x+y)*z/2.0;
+    cout<<"Trapezoid area:"<<fixed<<setprecision(1)<<area<<"\n";
     return 0;
 }
